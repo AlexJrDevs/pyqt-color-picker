@@ -24,7 +24,7 @@ class ColorPickerDialog(QDialog):
         cancelBtn = QPushButton('Cancel')
 
         okBtn.clicked.connect(self.accept)
-        cancelBtn.clicked.connect(self.close)
+        cancelBtn.clicked.connect(self.close) #
 
         if orientation == 'horizontal':
             lay = QHBoxLayout()
