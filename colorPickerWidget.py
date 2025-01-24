@@ -4,10 +4,10 @@ from PySide6.QtGui import QColor
 from PySide6.QtCore import Qt, Signal
 from PySide6.QtWidgets import QWidget, QHBoxLayout, QSizePolicy, QGridLayout
 
-from pyqt_color_picker.script import getColorByInstance
-from pyqt_color_picker.colorHueBarWidget import ColorHueBarWidget
-from pyqt_color_picker.colorEditorWidget import ColorEditorWidget
-from pyqt_color_picker.colorSquareWidget import ColorSquareWidget
+from . script import getColorByInstance
+from . colorHueBarWidget import ColorHueBarWidget
+from . colorEditorWidget import ColorEditorWidget
+from . colorSquareWidget import ColorSquareWidget
 
 
 class ColorPickerWidget(QWidget):

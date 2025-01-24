@@ -2,7 +2,7 @@ from PySide6.QtGui import QColor
 from PySide6.QtWidgets import QDialog, QHBoxLayout, QPushButton, QWidget, QVBoxLayout, QFrame
 from PySide6.QtCore import Qt
 
-from pyqt_color_picker.colorPickerWidget import ColorPickerWidget
+from . colorPickerWidget import ColorPickerWidget
 
 
 class ColorPickerDialog(QDialog):
